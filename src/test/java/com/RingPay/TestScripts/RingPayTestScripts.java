@@ -20,7 +20,7 @@ public class RingPayTestScripts {
 		Utilities.relaunch = true;
 		ringPayBusiness = new com.business.RingPay.RingPayBusinessLogic("ring");
 	}
-	//hello
+	
 	@Test(priority = 0)
 	@Parameters({"Valid_MobileNumber","EditValid_MobileNumber","LessThanTenDigits_MobileNumber","MoreThanTenDigits_MobileNumber","SpecialCharacters_MobileNumber","Space_MobileNumber","LessThanSixDigitOTP","InvalidOTP"})
     public void  User_Playstore_Flow(String validMob, String editMob, String lessThanTenMob, String moreThanTenMob,String specialCharMob, String spaceMob,String lessOtp, String invalidOtp) throws Exception {
