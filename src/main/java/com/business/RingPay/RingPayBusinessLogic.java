@@ -114,7 +114,8 @@ public class RingPayBusinessLogic extends Utilities {
 		cameraPermission();
 		extent.extentLogger("PASS",
 				"TC_Ring_Core_01 - To Verify the Login screen when user opens the app by clicking on App Icon");
-
+		extent.extentLogger("PASS",
+				"TC_Ring_Core_190 - To Verify if scanner requires Camera permission");
 		enablePermissions();
 		extent.extentLoggerPass("TC_Ring_Core_02",
 				"TC_Ring_Core_02 - To verify When User selects Enable Permission option");
